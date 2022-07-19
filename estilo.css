@@ -72,6 +72,7 @@ header .menu{
     line-height: 50px;
     margin-top: 10px;
     margin-bottom: 15px;
+    align-items: center;
 }
 .btn:hover{
     background-color:darkcyan;
@@ -87,17 +88,21 @@ header .menu{
     align-items: justify;
     justify-content: space-around;
     padding: 5px;
+    position: relative;
 }
 #quem-somos h2{
     font-size: 32px;
     color:#122a57;
-    display: flex;
-    margin-top: -140px;
-    margin-bottom: 100px;
+    display: inline-flex;
+    margin-top: -200px;
+    margin-bottom: 300px;
+    padding-right: auto;
+    padding-left: auto;
+    padding-top: 20px;
     padding: 15px;
-    position: absolute;
-    text-align:justify;
-    align-items: center;
+    position:absolute;
+    text-align:center;
+    align-items: center;    
 }
 #quem-somos h2::before{
     content: "";
@@ -108,10 +113,16 @@ header .menu{
 }
 #quem-somos p{
     margin-bottom: 10px;
-    max-width: 98%;
+    max-width: 95%;
+    justify-content: center;
+    align-items: center;
 }
-#que-somos img {
+#quem-somos img{
+    display: flex;
     min-width: 420px;
+    max-width: 90%;
+    min-height: 220px;
+    max-height: 90%;
 }
 #servicos{
     flex-direction: column;
