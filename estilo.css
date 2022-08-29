@@ -272,6 +272,7 @@ footer .footer, #email{
     box-shadow: 4px 4px 10px rgb(255, 15, 15);
     box-shadow: 5p 5px 5px 5px rgb(2, 68, 118);
     border-radius: 10px;
+    transition: .3s linear;
 }
 #link-topo:active {
     transform: scale(0.98);
@@ -321,7 +322,7 @@ footer .footer, #email{
         margin-bottom: 20px;
      }
 }
-@media(min-height: 800){
+@media(min-height: 800px){
 
     .item-servico img{
        width: 100%;
